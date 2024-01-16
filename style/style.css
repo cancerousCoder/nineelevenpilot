@@ -24,15 +24,15 @@ body{
 }
 
 .gifA{
-    background: url('/resource/ask.gif');
+    background: url('https://cancerouscoder.github.io/nineelevenpilot/resource/ask.gif');
 }
 
 .gifB{
-    background: url('/resource/approve.gif');
+    background: url('https://cancerouscoder.github.io/nineelevenpilot/resource/approve.gif');
 }
 
 .gifC{
-    background: url('/resource/disappearing.gif');
+    background: url('https://cancerouscoder.github.io/nineelevenpilot/resource/disappearing.gif');
 }
 
 .btns{
