@@ -1,7 +1,7 @@
 let name = prompt("Whattt is your name??");
 document.getElementById("question").innerText=`${name} will you be my valintine?`
 const no = document.getElementById("no");
-const aud = new Audio('/resource/song.mp3');
+const aud = new Audio('https://cancerouscoder.github.io/nineelevenpilot/resource/song.mp3');
 
 
 
