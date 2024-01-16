@@ -1,0 +1,73 @@
+*, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+#gif{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 380px;
+    border: 5px solid white;
+    border-radius: 50px;
+}
+
+.gifA{
+    background: url('/resource/ask.gif');
+}
+
+.gifB{
+    background: url('/resource/approve.gif');
+}
+
+.gifC{
+    background: url('/resource/disappearing.gif');
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#no{
+    position: relative;
+    transition: all 0.2s ease-in-out;
+}
+
+button {
+    padding: 17px 40px;
+    margin: 30px;
+    border-radius: 10px;
+    border: 0;
+    background-color: pink;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    transition: all 0.2s ease;
+    box-shadow: rgb(255, 105, 130) 0px 10px 0px 0px;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+  }
+  
+  button:hover {
+    box-shadow: rgb(255, 105, 130) 0px 7px 0px 0px;
+  }
+  
+  button:active {
+    background-color: pink;
+    box-shadow: rgb(255, 105, 130) 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition: 100ms;
+  }
+  
