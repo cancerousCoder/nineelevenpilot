@@ -1,3 +1,18 @@
+const getDeviceType = () => {
+  const ua = navigator.userAgent;
+  if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
+    alert("Use a computer for better UI");
+  }
+  if (
+    /Mobile|iP(hone|od)|Android|BlackBerry|IEMobile|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(
+      ua
+    )
+  ) {
+    alert("Use a computer for better UI");
+  }
+};
+getDeviceType();
+
 let name = prompt("Whattt is your name??");
 document.getElementById("question").innerText=`${name} will you be my valintine?`
 const no = document.getElementById("no");
