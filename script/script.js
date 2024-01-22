@@ -54,7 +54,7 @@ no.addEventListener("mouseover", (e)=>{
 })
 
 function change(){
-    if(name=="nandini" || name == "Nandini"){
+    if(name=="nandini" || name == "Nandini"|| name == "Nandini "|| name == "nandini "){
         document.getElementById("gif").classList.remove('gifA')
         document.getElementById("gif").classList.add('gifB')
         no.style.display="none";
